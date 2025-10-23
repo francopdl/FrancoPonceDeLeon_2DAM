@@ -1,0 +1,55 @@
+{
+  "tienda": {
+    "nombre": "Mi Tienda Online",
+    "categorias": [
+      {
+        "id": 1,
+        "nombre": "Electrónica",
+        "productos": [
+          {
+            "id": 101,
+            "nombre": "Smartphone X200",
+            "precio": 999.99,
+            "descripcion": "El último smartphone del mercado.",
+            "caracteristicas": {
+              "pantalla": "6.5 pulgadas AMOLED",
+              "camara": "48 MP",
+              "bateria": "4500 mAh"
+            },
+            "inventario": 4
+          }
+        ]
+      }
+    ],
+    "usuarios": [
+      {
+        "id": 1,
+        "nombre": "Juan Pérez",
+        "email": "juanperez@example.com",
+        "direccion": {
+          "calle": "Calle Principal",
+          "numero": 123,
+          "ciudad": "Madrid",
+          "pais": "España"
+        },
+        "historialCompras": [
+          {
+            "productoId": 101,
+            "cantidad": 2,
+            "fecha": "2025-10-23"
+          },
+          {
+            "productoId": 101,
+            "cantidad": 2,
+            "fecha": "2025-10-23"
+          },
+          {
+            "productoId": 101,
+            "cantidad": 2,
+            "fecha": "2025-10-23"
+          }
+        ]
+      }
+    ]
+  }
+}
